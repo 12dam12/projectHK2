@@ -1,0 +1,123 @@
+/* xoá dấu .  */
+ul {
+  list-style-type: none; /* Xóa dấu chấm */
+  padding: 0; /* Xóa khoảng cách bên trái */
+  margin: 0; /* Xóa khoảng cách bên ngoài */
+}
+li {
+  margin-right: 15px; /* Khoảng cách giữa các mục */
+}
+.ul {
+  display: flex;
+}
+/* xoá dấu .  */
+/* css sổ xuống */
+li {
+  margin-bottom: 10px; /* Khoảng cách giữa các mục */
+  /* border: 1px solid #ccc; Đường viền */
+  border-radius: 5px; /* Bo góc */
+  overflow: hidden; /* Ẩn nội dung khi không được mở */
+}
+
+.title {
+  background-color: #f0f0f0; /* Màu nền cho tiêu đề */
+  padding: 10px; /* Khoảng cách bên trong */
+  cursor: pointer; /* Con trỏ khi di chuột */
+}
+
+.content {
+  display: none; /* Ẩn nội dung ban đầu */
+  padding: 10px; /* Khoảng cách bên trong */
+}
+/*  */
+/* chỉnh youtube đen sang đỏ */
+.fa-youtube {
+  color: red; /* Đặt màu đỏ cho biểu tượng */
+}
+/* css heading vs footer */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50; /* Màu nền cho header */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none; /* Xóa dấu chấm */
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Hiển thị các mục trong hàng */
+  margin: 0 15px; /* Khoảng cách giữa các mục */
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* Xóa gạch chân */
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+/* end  css heading vs footer */
+/* không copy */
+.no-copy {
+  user-select: none; /* Không cho phép sao chép */
+}
+/* no copy */
+/* mở rộng tất cả */
+#expand-all {
+  cursor: pointer; /* Con trỏ khi di chuột */
+  color: red; /* Màu chữ cho mục "Mở rộng tất cả" */
+}
+/* iframe */
+iframe {
+  border-radius: 10px;
+}
+/* iframe */
+/* fa-solid */
+.fa-check {
+  color: tomato;
+}
+/* .fa-solid */
+/* chỉnh card */
+.card-img-top {
+  max-height: 200px; /* Điều chỉnh chiều cao tối đa */
+  object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+/* chỉnh card */
+
+/* hover card */
+.custom-card {
+  transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.custom-card:hover {
+  transform: scale(1.1); /* Tăng kích thước lên 10% khi hover */
+}
+/* hover card */
