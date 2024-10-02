@@ -34,56 +34,7 @@ li {
 .fa-youtube {
   color: red; /* Đặt màu đỏ cho biểu tượng */
 }
-/* css heading vs footer */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
-header {
-  background-color: #4caf50; /* Màu nền cho header */
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none; /* Xóa dấu chấm */
-  padding: 0;
-}
-
-nav ul li {
-  display: inline; /* Hiển thị các mục trong hàng */
-  margin: 0 15px; /* Khoảng cách giữa các mục */
-}
-
-nav a {
-  color: white;
-  text-decoration: none; /* Xóa gạch chân */
-}
-
-main {
-  padding: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-footer a {
-  color: #ffd700;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-/* end  css heading vs footer */
 /* không copy */
 .no-copy {
   user-select: none; /* Không cho phép sao chép */
